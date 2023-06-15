@@ -1,0 +1,12 @@
+.sectionBackground {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: grid;
+    gap: 15px;
+  }
+  
+  .sectionBackground > *:nth-child(2) {
+    margin-top: 15px;
+  }
+  

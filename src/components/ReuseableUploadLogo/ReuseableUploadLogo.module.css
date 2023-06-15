@@ -1,9 +1,9 @@
 .logoBox {
   /* Center vertically */
   border: 1px solid lightgray;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #ffffff;
-  padding: 20px;
+  padding: 14px;
 }
 
 .logoCircle {
@@ -18,12 +18,14 @@
 
 .logoText {
   margin-bottom: 5px;
-  color: gray;
+  color: #b9b9b9;
+  font-size: larger;
+  font-weight: 600;
 }
 
 .cameraiconBox {
-    margin-top: -20px;
-    margin-left: 55px;
+    margin-top: -22px;
+    margin-left: 58px;
   background-color: red;
   width: 18px;
   height: 19px;

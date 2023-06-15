@@ -1,4 +1,4 @@
-.inputFieldBox{
+/* .inputFieldBox{
     border: 1px solid lightgray;
     border-radius: 5px;
     padding: 10px;
@@ -13,4 +13,26 @@ display: grid;
 .inputField{
 width: auto;
 font:800;
+} */
+
+.questionAnswerBox{
+    /* width: ; */
+    height: 55px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding-left: 15px;
+    background-color: white;
+    /* margin-top: auto; */
+}
+
+.questionText{
+    /* margin-bottom: 10px; */
+    margin-top: 7px;
+    color: #a3a3a3;
+    font-size: smaller;
+}
+
+.answerInput{
+    font-weight: 500;
+    color: #707070;
 }
