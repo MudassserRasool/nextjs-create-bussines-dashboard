@@ -1,6 +1,8 @@
 import React from "react";
 import Style from "./ReuseableUploadLogo.module.css";
 import { CiCamera } from "react-icons/ci";
+import { AiOutlineCamera } from "react-icons/ai";
+import { IoCameraOutline } from "react-icons/io5";
 
 const ReuseableUploadLogo = () => {
   return (
@@ -11,7 +13,7 @@ const ReuseableUploadLogo = () => {
         </div>
 
         <div className={Style.cameraiconBox}>
-          <CiCamera color="#ffffff" className={Style.cameraIcon}/>
+          <IoCameraOutline color="#ffffff" className={Style.cameraIcon}/>
         </div>
       </div>
     </div>
