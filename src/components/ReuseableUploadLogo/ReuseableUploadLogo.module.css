@@ -1,0 +1,36 @@
+.logoBox {
+  /* Center vertically */
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.logoCircle {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #f8fafc;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.logoText {
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.cameraiconBox {
+    margin-top: -20px;
+    margin-left: 55px;
+  background-color: red;
+  width: 18px;
+  height: 19px;
+  border-radius: 50%;
+}
+
+.cameraIcon {
+  margin-left: 1.4px;
+  padding-top: 1px;
+}

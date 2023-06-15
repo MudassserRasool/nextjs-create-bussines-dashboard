@@ -1,0 +1,16 @@
+.inputFieldBox{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+display: grid;
+}
+
+.inputFieldLabel{
+    font-size: 15px;
+    color: gray;
+}
+
+.inputField{
+width: auto;
+font:800;
+}
