@@ -1,6 +1,7 @@
 import React from 'react'
 import Style from './SwitchAccount.module.css'
 import ReuseableUserAccount from '../ReuseableUserAccount/ReuseableUserAccount'
+import ReuseableAddNewButton from '../ReuseableAddNewButton/ReuseableAddNewButton'
 
 const SwitchAccount = () => {
   return (
@@ -14,7 +15,8 @@ const SwitchAccount = () => {
               <ReuseableUserAccount/>
               <hr className={Style.hrTag} />
               <ReuseableUserAccount/>
-              
+              <hr className={Style.hrTag} />
+              <ReuseableAddNewButton/>
             </div>
         </div>
     </div>

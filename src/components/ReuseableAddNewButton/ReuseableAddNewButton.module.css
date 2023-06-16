@@ -1,0 +1,28 @@
+.iconAndText{
+    display: flex;
+    align-items: start;
+    margin: 10px;
+}
+
+.addAccountIconAndText{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.addNewAccountButtonBox{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(233, 232, 232);
+}
+
+.addIcon{
+    margin-left: 4.9px;
+    margin-top: 5px;
+}
+
+.accountUserNameText{
+    font-weight: 500;
+    line-height: 1.3rem;
+}
