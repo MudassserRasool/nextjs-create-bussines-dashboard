@@ -1,0 +1,19 @@
+.switchAccountCard{
+    background-color: white;
+    border: 1px solid rgb(221, 219, 219);
+    border-radius: 8px;
+    padding: 3px;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+
+.arrangeAccountsInColummn{
+    display: grid;
+}
+
+.hrTag{
+    color: gray;
+    width: 98.3%;
+    margin-left: auto;
+    margin-right: auto;
+}

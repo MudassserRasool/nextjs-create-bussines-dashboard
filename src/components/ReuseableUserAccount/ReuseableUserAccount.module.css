@@ -1,0 +1,42 @@
+.profileAndRadioRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.profileImageStyle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.profileAndText{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.accountUserNameText{
+    font-weight: 500;
+    line-height: 1.3rem;
+}
+
+.accountUserRoleText{
+    font-size: small;
+    font-weight: 400;
+    color: grey;
+    line-height: 1.3rem;
+}
+
+.radioInputStyle{
+    width: 200px;
+    height: 200px;
+}
+
+.input[type='radio'] {
+    accent-color: #cc0606;
+    width: 15px;
+    height: 15px;
+    border: 1px solid gray;
+}
